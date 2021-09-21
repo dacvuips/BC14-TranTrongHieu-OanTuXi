@@ -1,0 +1,64 @@
+.speech-bubble {
+	position: relative;
+	background: #45D994;
+	border-radius: .4em;
+	
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 35px solid transparent;
+	border-top-color: #45D994;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -17.5px;
+	margin-bottom: -35px;
+}
+
+.mess{
+	
+	border: 2px solid #45D994;
+	width: 100px;
+	height: 100px;
+	background-color: #fff;
+	border-radius: 4px;
+}
+.canh{
+	display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.butto{
+	/* border: 2px solid #45D994; */
+	
+	background-color: #fff;
+	
+	
+
+}
+.font{
+	color: rgb(255, 230, 4);
+
+	font-family:'fontGame'
+}
+@font-face {
+	color: rgb(255, 230, 4);
+
+	font-family:'fontGame' ;
+	src: url('./Pony.ttf');
+}
+
+.btnitem{
+/* border: 2px solid #45D994; */
+margin: 5px;
+
+
+}
